@@ -8,7 +8,7 @@ WORKDIR /code
 COPY ./requirements.txt /code/requirements.txt
 
 # Instalar dependências do projeto
-RUN pip install --no-cache-dir --upgrade -r /code/requirements.txt
+RUN pip install --no-cache-dir --upgrade -r /code/requirements.txt && pip install uvicorn 
 
 # Copiar a pasta do projeto no workdir
 COPY ./app /code/app
