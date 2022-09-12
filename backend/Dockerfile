@@ -1,5 +1,5 @@
 # Derivando da imagem oficial do Python 3.9
-FROM python:3.9
+FROM python:alpine3.16 
 
 # Definir o workdir
 WORKDIR /code
