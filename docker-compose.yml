@@ -1,7 +1,7 @@
 version: '3.5'
 services:
     backend:
-        image: company-backend
+        image: company-backend:2.0
         ports:
             - "80:80"
     mysql:
