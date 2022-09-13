@@ -32,7 +32,7 @@ git clone https://github.com/So4resAlex/Building-a-containerized-app.git && cd B
 docker-compose up -d 
 ```
 
-5. Após isso a aplicação estara online e você poderá utilizar rotas abaixo 
+5. Após isso a aplicação estara online e você poderá utilizar as rotas abaixo 
 ```
 http://0.0.0.0/ 
 http://0.0.0.0/employees
